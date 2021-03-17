@@ -1,0 +1,5 @@
+* To run only specific test that would helpful in debuging
+  import pytest
+  @pytest.mark.add # --> (.add) replace this with the test name after "test"
+  pytest -k add -v example.py # to run the specific test add a flag -k <test name>
+  
